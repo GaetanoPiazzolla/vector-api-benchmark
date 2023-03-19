@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec236a5-c844-427c-b4ac-16bdadad9f0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gae/piaz/ArrayMismatchBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gae/piaz/BenchmarkRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ArraySumUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gae/piaz/ArrayMismatchBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gae/piaz/ArraySumBenchmark.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,7 @@
       <list>
         <option value="package-info" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +56,12 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.gae.piaz.BenchmarkRunner">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gae.piaz" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArraySumUnitTest">
     <configuration name="BenchmarkRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BenchmarkRunner" />
       <module name="vector-api" />
@@ -86,12 +89,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArraySumUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vector-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArraySumUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySumUnitTest.testArraySum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vector-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArraySumUnitTest" />
+      <option name="METHOD_NAME" value="testArraySum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySumUnitTest.testArraySumVectorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vector-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArraySumUnitTest" />
+      <option name="METHOD_NAME" value="testArraySumVectorial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BenchmarkRunner" />
       <item itemvalue="Application.gae.piaz.BenchmarkRunner" />
+      <item itemvalue="JUnit.ArraySumUnitTest" />
+      <item itemvalue="JUnit.ArraySumUnitTest.testArraySum" />
+      <item itemvalue="JUnit.ArraySumUnitTest.testArraySumVectorial" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArraySumUnitTest" />
+        <item itemvalue="JUnit.ArraySumUnitTest.testArraySumVectorial" />
+        <item itemvalue="JUnit.ArraySumUnitTest.testArraySum" />
         <item itemvalue="Application.gae.piaz.BenchmarkRunner" />
         <item itemvalue="Application.BenchmarkRunner" />
       </list>
@@ -107,5 +145,16 @@
       <updated>1679155992136</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/gae/piaz/ArraySumBenchmark.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
